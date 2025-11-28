@@ -1,0 +1,52 @@
+<html> 
+<head> 
+     <meta charset="utf-8">
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2"> 
+</head> 
+<body> 
+<table width=65% border="1" align="center" cellspacing="0"> 
+     <thead> 
+    <tr>
+<td  align="center" colspan="5" ><h2>Sposoby podłączania styli do strony</h2></td>
+    </thead> 
+    <tbody
+</tr>
+<tr>
+    <td>1)Zewnętrzny arkusz stylów. </td>
+    <td><Textarea disabled cols="60" rows="3"> <head> <link rel="Stylesheet" type="text/css" href="style.css" /> 
+</head>
+</Textarea></td>
+</tr>
+<tr>
+<td>2)Styl lokalny </td>
+<td><Textarea disabled cols="60" rows="3"><head> 
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>  </Textarea></td>
+</tr>
+<tr>
+<td>3)Wewnętrzny arkusz stylów.</td>
+    <td><Textarea disabled cols="60" rows="6"><head> 
+<style type="text/css"> 
+selektor1 { cecha: wartość; cecha2: wartość2... } 
+selektor2 { cecha: wartość; cecha2: wartość2... } 
+</style> 
+</head> </Textarea></td>
+</tr>
+<tr>
+    <td>4)Alternatywny arkusz stylów.</td>
+  <td><Textarea disabled cols="60" rows="8"><head> 
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" /> 
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" /> 
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" /> 
+</head>  </Textarea></td>
+</tr>
+<tr>
+    <td>5)Import arkusza stylów.</td>
+  <td><Textarea disabled cols="60" rows="3"><style type="text/css"> 
+@import url(adres zewnętrznego arkusza stylów); 
+</style>  </Textarea></td>
+</tr>
+</table>
+</tbody>
+</table>
+</body> 
+</html> 
