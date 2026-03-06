@@ -1,11 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
-    <meta charset="UTF-8" />
-    <title>title</title>
+    <meta charset="UTF-8">
+    <title>Zadanie: DIV i SPAN</title>
+    <style>
+        body {
+            background-color: #008000;*/
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+  
+        .blok1 {
+            background-color: #FFFF00;
+            padding: 10px;
+            border: 1px solid black;
+            margin-bottom: 5px;
+        }
+
+
+        .blok2 {
+            background-color: #FFC0CB;
+            padding: 10px;
+            border: 1px solid black;
+            margin-bottom: 5px;
+        }
+
+      
+        .blok3 {
+            background-color: #FFFFFF;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        h1, h2 {
+            margin-top: 0;
+            color: #FF0000; 
+            font-weight: normal;
+        }
+
+        .podtytul {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        .span-list {
+            list-style-type: circle;
+            color: #800080; 
+        }
+    </style>
 </head>
 <body>
-    
+
+    <!-- BLOK 1 -->
+    <div class="blok1">
+        <h1>Znacznik DIV (blok 1)-->Bartosz Rutkowski</h1>
+        <p><b><u>Element blokowy (DIV)</u></b> jest elementem blokowym może zawierać wewnątrz siebie zwykły tekst, jak również inne elementy blokowe. Został on pomyślany do tworzenia obszerniejszych struktur.</p>
+        <p class="podtytul">Zastosowanie DIV</p>
+        <ul>
+            <li>Z div'a powinno się korzystać kiedy potrzebujemy wyodrębnić poszczególne bloki w układzie dokumentu, na przykład lewa kolumna, menu nawigacyjne, stopka.</li>
+            <li>Służy do utworzenia sekcji (bloku) w pliku HTML w celu ich sformatowania za pomocą arkusza stylów CSS.</li>
+        </ul>
+    </div>
+
+    <!-- BLOK 2 -->
+    <div class="blok2">
+        <h2>Znacznik SPAN (blok 2)-->06.03.2026.09:15</h2>
+        <ul class="span-list">
+            <li><u>Elementy wyświetlanie w linii (SPAN)</u> jest elementem liniowym nie mogą zawierać elementów blokowych, ale mogą inne elementy wyświetlane w linii oraz zwykły tekst.</li>
+            <li>Jeśli chcemy w paragrafie częśc tekstu wyróżnić czerwonym kolorem, do wyodrębnienia tego tekstu nie możemy użyć elementu div (paragraf z zasady nie może zawierać elementów blokowych) tylko span. Wewnątrz DIV można oczywiście wpisać również SPAN.</li>
+        </ul>
+    </div>
+
+    <!-- BLOK 3 -->
+    <div class="blok3">
+        <h2 style="font-size: 1.2em;">Różnica między znacznikami DIV i SPAN (blok 3)-->1P</h2>
+        <ul>
+            <li><b>Span'em wyodrębniamy elementy liniowe</b> (najczęściej fragmenty tekstu) a <b>divem blokowe</b> elementy, większe fragmenty struktury składające się na układ strony.</li>
+            <li>Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w linii.</li>
+        </ul>
+    </div>
+
 </body>
 </html>
 <!--Bartosz Rutkowski-->
