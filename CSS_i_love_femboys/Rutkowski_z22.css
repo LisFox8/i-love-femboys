@@ -1,0 +1,17 @@
+p
+{
+color:red;
+font-size: 22pt;
+}
+p#gruby_rutkowski
+{
+color:green;
+font-size: 17pt;
+font-weight: bold;
+}
+#dlawszystkich_rutkowski
+{
+color: yellow;
+font-size: 10pt;
+font-style:Arial;
+}
