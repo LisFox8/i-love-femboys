@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 19 - Definiowanie i użycie DIV oraz SPAN</title>
+    <style>
+        p {
+            color: red;
+            font-size: 40mm;
+        }
+
+        span {
+            color: green;
+            font-size: 25mm; 
+        }
+
+        .srebrny-div {
+            background-color: silver; 
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+
+        .fioletowy { color: rgb(128, 0, 128); }
+        .rozowy { color: rgb(255, 192, 203); }
+        .jasno-niebieski { color: rgb(173, 216, 230); }
+    </style>
+</head>
+<body>
+
+    <div class="srebrny-div">
+        <span>
+            <b>To jest pogrubienie w ramach DIV oraz SPAN i dlatego jest zielone na srebrnym tle</b>,
+            a to jest zwykły tekst - również wewnątrz DIV i SPAN.
+        </span>
+        To jest zwykły tekst, ale tylko wewnątrz DIV - dlatego nie jest zielony, ale ma srebrne tło.
+        <p>A to jest akapit (element blokowy) w ramach DIV.</p>
+    </div>
+
+    <hr>
+
+    <div>
+        <span>
+            <b>To jest pogrubienie (element wyświetlany w linii) w ramach SPAN</b>,
+            a to jest zwykły tekst - również wewnątrz span.
+        </span>
+    </div>
+
+    <hr>
+
+    <h3>Przykład 3: Temat: Kolorowe wyliczenie z użyciem styli wpisanych.</h3>
+    <ol>
+        <li class="fioletowy">
+            <span style="color: black; font-size: 16px;">Punkt pierwszy (fioletowy nr)</span>
+        </li>
+        <li class="rozowy">
+            <span style="color: black; font-size: 16px;">Punkt drugi (różowy nr)</span>
+        </li>
+        <li class="jasno-niebieski">
+            <span style="color: black; font-size: 16px;">Punkt trzeci (jasno-niebieski nr)</span>
+        </li>
+    </ol>
+
+</body>
+</html>
