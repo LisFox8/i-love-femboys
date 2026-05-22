@@ -1,0 +1,12 @@
+* 
+{ 
+font-size: 36pt;
+background-color:silver; 
+color: red;
+} 
+p.klasa_nieuniwersalna_rutkowski
+{
+    font-size: 34pt;
+    color: green;
+}
+.klasa_uniwersalna_rutkowski { font-size:22pt;  color: black }
