@@ -1,0 +1,27 @@
+  body{ 
+                  background-color:silver; 
+     text-align : center; 
+                  margin     : 50px; 
+ } 
+div#pierwszy_rutkowski { 
+        background : rgb(100,128,255); 
+        size      : 2884pt; 
+        border     : 3px black solid; 
+    } 
+ div#drugi_rutkowski { 
+        background : rgb(100,128,255); 
+        size     : 3684pt; 
+        border     : 3px black solid; 
+    } 
+    div#trzeci_rutkowski { 
+        background : rgb(100,128,255); 
+        size      : 4484pt; 
+        border     : 3px black solid; 
+    } 
+    p{
+        font-size:11pt;
+    }
+    p:first-child 
+{
+    font-size:7mm;font-style:italic;
+} 
